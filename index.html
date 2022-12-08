@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" theme="light">
+
+<head>
+    <link rel="icon" href="/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <!-- css links start -->
+    <link rel="shortcut icon" href="./img/coderg.jpg" type="image/x-icon">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- hover css -->
+    <link href="./Hover-master/css/hover.css">
+    <!-- css links end -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <!-- button hover css -->
+    <link rel="stylesheet" href="./btns-main/src/styles.css">
+    <!-- img hover -->
+
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-center">
+        <div class="container-fluid nav_cont p-0 m-0">
+            <a class="navbar-brand me-0 p-2 px-3" href="#">
+                <p class="fname mb-0">It's</p>
+                <p class="mb-0 pb-0 lname ms-1">Harsh</p>
+            </a>
+
+            <ul class="navbar-nav p-3 mb-2 mb-lg-0 ">
+                <li class="nav-item mx-3" id="Home_link">
+                    <a class="nav-link" aria-current="page" href="#home"><i
+                            class="fa-solid fa-house-user me-2 nav_icon"></i>Home</a>
+                </li>
+                <li class="nav-item mx-3" id="skill_link">
+                    <a class="nav-link" href="#skill"><i class="fa-solid fa-chess-queen me-2 nav_icon"></i></i>About</a>
+                </li>
+                <li class="nav-item mx-3" id="work_link">
+                    <a class="nav-link" href="#work"><i class="fa-solid fa-laptop-code me-2 nav_icon"></i>Work</a>
+                </li>
+                <li class="nav-item mx-3" id="contact_link">
+                    <a class="nav-link" href="#contact"><i class="fa-solid fa-phone me-2 nav_icon"></i>Contact</a>
+                </li>
+                <div class="radio_btn mt-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-title="dark mode">
+                    <div class="radio_inner"></div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="menu_icon me-3" data-bs-toggle="offcanvas" data-bs-target="#side_bar" aria-controls="side_bar">
+        <div class="top_bar"></div>
+        <div class="middel_bar"></div>
+        <div class="bottom_bar"></div>
+    </div>
+    <!-- nav end -->
+    <!-- preloader start-->
+    <div class="preloader">
+        <preloader></preloader>
+    </div>
+    <!-- preloader end -->
+    <!-- main page start -->
+    <div class="wrappre">
+        <div class="scroll_to_top rounded-circle" id="scroll">
+            <a href="#home" class="text-decoration-none"><i class="fa-solid fa-arrow-up arrow_up"></i></a>
+        </div>
+        <!-- home starts here  -->
+        <div class="home items secondary-section" id="home" data-index="1">
+            <div class="home_content mx-none mx-md-auto">
+                <p class="mb-0 hii"> <span class=""></span>Hii, i'm</p>
+                <h1 class="ml9 d-flex align-items-end justify-content-center">
+                    <span class="text-wrapper pt-0">
+                        <span class="letters">G-Harsh</span>
+                    </span>
+                </h1>
+                <p class="position_text">
+                    A Creative&nbsp;<span class="main_position p-2">&nbsp;FrontEnd&nbsp;</span>&nbsp;Developer
+                </p>
+                <div class="home_info">
+                    <p class="card-text my-3 quote mx-auto">“i'm a Creative Developer From Denver With a Passion for
+                        CSS, animation, developer Exeperience, and deleting code.”</p>
+                    <!-- <p class="card-text"><small class="text-muted">― Paulo Coelho, The Alchemist</small></p> -->
+                </div>
+            </div>
+
+        </div>
+        <!-- home starts here  -->
+        <!-- about starts here  -->
+        <div class="about_section items secondary-section" id="skill" data-index="2">
+            <div class="about_header pt-5">
+                <h1 class="about_title p-2">Me, Myself & I</h1>
+            </div>
+            <div class="about_content p-4 d-flex align-items-center justify-content-center flex-column">
+                <div class="about_img">
+                    <img src="./img/portfolio/code_boy.png" alt="about image is not visible"
+                        class="w-100 rounded-circle">
+                </div>
+                <div class="about_info mt-3 d-flex justify-content-center flex-column align-items-center">
+                    <p class="greet mb-0 my-3 text-center">Hii 👋, I Am Harsh. Nice To Meet You.</p>
+                    <p class="paragraph my-2 text-center">
+                        I am a 21 year old frontend developer and bca student [5th year] at <a
+                            href="https://www.cushahbca.ac.in/" target="_blank"
+                            class="text-decoration-none cushah"><u>C.U Shah Insitute of Computer Application
+                            </u></a>,Gujarat University. curruntly living in ahmedabad, gujarat. i like to bring the
+                        best of both
+                        worlds into my design which is known for its sophisticated simplicity and thoughtful details.
+                        Well-organised person, problem solver, independent student with high attention to details.
+                    </p>
+                </div>
+            </div>
+            <div class="skill_header d-flex align-items-center justify-content-center flex-column ">
+                <h1 class="skill_title p-2 text-center">here Are Few Technologies That i'm curruntly Working on</h4>
+                    <i class="text-center fa-solid fa-arrow-down-long d-block"></i>
+            </div>
+            <div class="skill_wrapper p-0 p-md-5 mt-2 pt-md-3">
+                <div class="skill_cont" id="html_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/html.svg" alt="html image currupt">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">HTML 5</p>
+                    </div>
+                </div>
+                <div class="skill_cont" id="css_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/css.svg" alt="html image currupt">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">CSS 3</p>
+                    </div>
+                </div>
+                <div class="skill_cont" id="jquery_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/jquery.svg" alt="html image currupt">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">jquery</p>
+                    </div>
+                </div>
+                <div class="skill_cont" id="javascript_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/javascript.svg" alt="html image currupt">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">javascript</p>
+                    </div>
+                </div>
+                <div class="skill_cont" id="php_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/php.svg" alt="html image currupt">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">PHP</p>
+                    </div>
+                </div>
+                <div class="skill_cont" id="bootstrap_skill">
+                    <div class="skill_box">
+                        <div class="skill_img d-flex align-items-center justify-content-center">
+                            <img src="./img/lang_img/bootstrap.png" alt="html image currupt" class="w-100">
+                        </div>
+                    </div>
+                    <div class="skill_name">
+                        <p class="text-center mt-2">bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about starts here  -->
+        <!-- work starts here  -->
+        <div class="work_section items pt-5 secondary-section" id="work" data-index="3">
+            <div class="work_header pt-5">
+                <h1 class="work_title p-2 text-center">My Projects</h1>
+            </div>
+            <div class="project_container mx-auto d-flex flex-wrap align-items-center justify-content-center">
+                <div class="project_card" id="p1">
+                    <div class="visit_site">
+                        <a href="https://g-harsh.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <div class="project_info_details">
+                            <h2 class="project_info_title fw-bold">My Porfolio</h2>
+                            <p class="project_info_details">It is My previous portfolio that i have build up Earlier. it
+                                shaows the work i have created as well as my skill and Exeperience.</p>
+                        </div>
+                    </div>
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/Portfolio.git" class="w-100 h-100 d-flex align-items-center justify-content-center" target="_blank"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p2">
+                    <div class="visit_site">
+                        <a href="https://bbconvertr.netlify.app" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="project_info_title fw-bold">Encryption Convertor</h2>
+                        <p class="project_info_details">It Convert Data Into Scrambled Text. The unreadable text only be
+                            decoded with a secaret key.The secret key is a number that's: Created on your device and the
+                            device you message.</p>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/incryptor.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p3">
+                    <div class="visit_site">
+                        <a href="https://calculator1105.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title">Calculator</h2>
+                        <div class="project_info_details">Fully functional calculator with beautiful Minimilastic ui
+                            design and drop down menu.it can perform arithmetic eyc operations.</div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/calculator.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p4">
+                    <div class="visit_site">
+                        <a href="https://code-cartoon.netlify.app" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title">Character Generator</h2>
+                        <div class="project_info_details">You can create your own avtar using these generator. each time
+                            you enter same name you will get same character</div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/cartoon_generator.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p5">
+                    <div class="visit_site">
+                        <a href="https://music-player11.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title">Music Player</h2>
+                        <div class="project_info_details">Full Dynemic music player plays song onclick with playlist.
+                        </div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/music_player.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p6">
+                    <div class="visit_site">
+                        <a href="https://net-flixclone11.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title">Netflix Clone</h2>
+                        <div class="project_info_details">Here By i have created simple netflix ui using HTML, CSS.
+                        </div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/netflix_clone.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p7">
+                    <div class="visit_site">
+                        <a href="https://g-harsh2-0.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title">Minimilastic Porfolio Design</h2>
+                        <div class="project_info_details">Under Development</div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/Portfolio.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+                <div class="project_card" id="p8">
+                    <div class="visit_site">
+                        <a href="https://g-harsh-india.netlify.app" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" class="visit_site_btn"></i></a>
+                    </div>
+                    <div class="like_btn">
+                        <i class="fa-2x text-danger far fa-heart like_icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="project_info d-flex align-items-center justify-content-center">
+                        <h2 class="fw-bold project_info_title text-center">independence Special</h2>
+                        <div class="project_info_details">This is small project. when i was learning css i have created
+                            this on independence day</div>
+                    </div>
+                    <!-- <img src="./img/project_images/project1.png" class="project_one_image"> -->
+                    <div class="backdrop_color_div"></div>
+                    <a href="https://github.com/CoderG01/independence-day-india-.git" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center"><img
+                            src="./img/portfolio/image_hover_circle.png" alt="image hover circle isn't visible"
+                            class="view_code_img"></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- work starts here  -->
+        <!-- contact starts here  -->
+        <div class="contact_section pt-5 items secondary-section" id="contact" data-index="4">
+            <div class="contact_header pt-5">
+                <h1 class="contact_title p-2 text-center">Contact Me</h1>
+            </div>
+            <div class="row mx-auto mt-5">
+                <div class="col-12 col-md-6  p-3 contact_left_side">
+                    <div class="contact_main_title">
+                        <h4>Say Hello To Me 👋</h4>
+                    </div>
+                    <form action="#" class="mt-4 contact_form">
+                        <div class="input_wrapper">
+                            <label for="email" class="form-label">Email address</label>
+                            <div class="mb-3 input_box">
+                                <input type="email" class="form-control" id="email_input" name="email"
+                                    autocomplete="off">
+                                <div class="underline"></div>
+                            </div>
+                        </div>
+                        <div class="input_wrapper">
+                            <label for="message" class="form-label">Message</label>
+                            <div class="mb-3 input_box">
+                                <textarea class="form-control" name="message" id="message" rows="4"
+                                    autocomplete="off"></textarea>
+                                <div class="underline"></div>
+                            </div>
+                        </div>
+                        <div class="btn_wrapper mt-5">
+                            <div class="btn btn-fill-center">
+                                <span class="btn-fill-center-text btn-fill-center-text--gray">Submit
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center p-3 justify-content-center">
+                    <div class="map_wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.233793433775!2d72.67551656124901!3d23.057152989854085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e873b7fd5340f%3A0x1849c771fe23bb27!2sSarita%20Residency%201%20Block-A%2C%20SARITA%20RESIDENCY-1%2C%20Ankur%20Chokadi%2C%20New%20India%20Colony%2C%20Ankur%20Tenament%2C%20Nikol%2C%20Ahmedabad%2C%20Gujarat%20382345!5e0!3m2!1sen!2sin!4v1664808064026!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_mail">
+                <div class="inner">
+                    <p class="contactMail_text p-3">
+                        <span class="me-2">I am available for work</span><br>
+                        <a href="mailto:harshgoswami1105@gmail.com"
+                            class="contactMail_link px-3">harshgoswmai1105@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- contact starts here  -->
+        <div class="main_footer">
+            <div class="footer_prfile_head d-flex align-items-center justify-content-center flex-column flex-wrap">
+                <div class="footer_profile d-flex align-items-center justify-content-center">
+                    <img src="./img/coder_boy.png" class="footer_profile_image">
+                </div>
+                <div class="head_content d-flex align-items-center justify-content-center flex-column flex-wrap">
+                    <p class="text-center">Fresh Design and Development. i am available <br> for work</p>
+                    <a href="mailto:harshgoswami1105@gmail.com" class="hire_me_btn px-3 d-flex align-items-center"><i class="fa-solid fa-envelope me-1"></i>Hire Me</a>
+                </div>
+            </div>
+            <div class="inner row">
+                <div class="col-12 col-md-6">
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+        </div>
+        <div class="space_div">
+        </div>
+        <div class="offcanvas offcanvas-start" style="box-shadow: 0px 0px 10px grey;" data-bs-scroll="true" tabindex="-1" id="side_bar"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-body  d-flex align-items-center justify-content-center">
+                <div class="menu_wrapper">
+                    <div class="menu_head_wrapper d-flex align-items-center justify-content-center">
+                        <img src="./img/smile_emogi.jpg" class="w-25 rounded-circle">
+                    </div>
+                    <div class="radio_btn mt-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="dark mode">
+                        <div class="radio_inner"></div>
+                    </div>
+                    <div class="menu_section">
+                        <ul class="navbar-nav p-3 mb-2 mb-lg-0">
+                            <li class="nav-item mx-3" id="Home_link">
+                                <a class="nav-link" aria-current="page" href="#home"><i
+                                        class="fa-solid fa-house-user me-2 nav_icon"></i>Home</a>
+                            </li>
+                            <li class="nav-item mx-3" id="skill_link">
+                                <a class="nav-link" href="#skill"><i
+                                        class="fa-solid fa-chess-queen me-2 nav_icon"></i></i>About</a>
+                            </li>
+                            <li class="nav-item mx-3" id="work_link">
+                                <a class="nav-link" href="#work"><i
+                                        class="fa-solid fa-laptop-code me-2 nav_icon"></i>Work</a>
+                            </li>
+                            <li class="nav-item mx-3" id="contact_link">
+                                <a class="nav-link" href="#contact"><i
+                                        class="fa-solid fa-phone me-2 nav_icon"></i>Contact</a>
+                            </li>
+                            <img src="./img/shoes.png" class="w-50 shoes">
+                        </ul>
+                        <img src="./img/hand.png" class="hand_imogi">
+                    </div>
+                    <div class="shoes_foot">
+                        <img src="" class="w-25 left_shoes foot">
+                        <img src="" class="w-25 right_shoes foot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page_footer">
+        <div class="container-fluid page_footer_inner d-flex align-items-center justify-content-between">
+            <div class="weather p-2">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><span id="seasonText"></span> <span id="currentYear"></span></p>
+                    <img src="./img/monsoon.svg" id="seasonImg" alt="">
+                </div>
+            </div>
+            <!-- social media section start -->
+            <div class="social_media_wrapper d-flex flex-column">
+                
+            </div>
+            <div class="page_number d-flex">
+                <p class="mb-0 page_number_p d-flex align-items-end">01</p>
+                <div class="page_vertical_line ms-2"></div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- social media section end -->
+    <!-- main page end -->
+    <!-- script start -->
+    <!-- jquery js -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- font awesome js -->
+    <script src="./js/fontawesome.js"></script>
+    <!-- main js -->
+    <script src="./js/index.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- preloader -->
+    <script src="./js/loader.js"></script>
+    <!-- anim.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- script end -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- image hover -->
+    <script src="./img_hover/dist/jquery.directional-hover.min.js"></script>
+</body>
+
+</html>
